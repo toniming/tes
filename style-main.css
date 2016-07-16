@@ -1,0 +1,73 @@
+body{
+    background: -moz-linear-gradient(top, #E3ECF9,#ADC7ED);
+    background-attachment: fixed;
+    font-family: arial;
+}
+full{
+    width: 90%;
+    float: left;
+    padding: 5px 20px;
+}
+.menu>ul{
+    float: left;
+    padding: 10px 20px 9px 20px;
+    border-bottom: 5px solid #2965BE;
+    color: white;
+}
+.menu>ul>li{
+    list-style-type: none;
+    float: left;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin-right: 10px;
+    background-color: #80A8E3;
+    border-radius: 4px 4px 0 0;
+}
+.menu>ul>li>a.aktif{
+    background-color: #2965BE;
+}
+input[type=text], input[type=number], select{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px silver;
+    border: 1px solid silver;
+    font-size: 15px;
+    width: 225px;
+    padding: 5px 0;
+}
+select{
+    width:100px;
+}
+input[type=submit]{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=text]:focus{
+    box-shadow: 0px 0px 5px #0080FF;
+}
+
+.notif{
+    border-radius: 5px;
+    background-color: #F87EA9;
+    border: 1px solid #F00D5C;
+    color: white;
+    padding: 5px 10px;
+}
+.table{
+    border: 1px solid #8080FF;
+    font-size: 14px;
+}
+td{
+    padding: 5px 10px;
+}
+.header{
+    background-color: #8080FF;
+    color: white;
+    font-weight: bold;
+}
